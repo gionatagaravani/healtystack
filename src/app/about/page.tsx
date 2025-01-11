@@ -36,7 +36,7 @@ export default function AboutPage() {
         </div>
         <div className="relative aspect-[3/4] rounded-2xl overflow-hidden shadow-lg transform hover:scale-[1.02] transition-transform duration-300">
           <Image
-            src="/christina-kitchen.jpg"
+            src="/profile.png"
             alt="Christina Anderson in her kitchen"
             fill
             className="object-cover hover:opacity-95 transition-opacity"
@@ -102,7 +102,7 @@ export default function AboutPage() {
       </div>
 
       {/* Featured In Section */}
-      <div className="text-center bg-recipe-light p-8 rounded-2xl">
+      {/* <div className="text-center bg-recipe-light p-8 rounded-2xl">
         <h3 className="text-2xl font-bold text-gray-900 mb-6">
           Featured In
         </h3>
@@ -147,7 +147,7 @@ export default function AboutPage() {
             />
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }
